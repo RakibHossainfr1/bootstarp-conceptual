@@ -8,11 +8,18 @@ body {
 .text-blue {
     color: #2937f0;
 }
+.navigation {
+    height: 80px;
+}
 .banner {
-    height: calc(100vh - 80px);
+    min-height: calc(100vh - 80px);
+    
 }
 #feature {
-    height: 100vh;
+    min-height: 100vh;
+}
+.new-web-design {
+    min-height: 100vh;
 }
 .Stop-waiting {
     background-image: url(../img/background.png);
@@ -22,6 +29,6 @@ body {
     background-color: rgba(0, 0, 0, 0.5);
     background-blend-mode: overlay;
 }
-#download {
-    
+#footer {
+    background-color:rgba(0, 0, 0, 0.822);
 }
